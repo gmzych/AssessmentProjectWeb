@@ -2,14 +2,12 @@
 font-family: 'Saira Condensed', sans-serif; 
 font-family: 'Roboto', sans-serif;
 */
+
 *
 {
     margin: 0;
     padding: 0;
-}
-html
-{
-    
+    /* box-sizing: border-box; */
 }
                                                     /* SEKCJA NAWIGACJA HEADER */
 nav 
@@ -18,23 +16,22 @@ nav
     margin: 15px auto;
     text-align: right;
 
-}
-                                            
+}                                         
 nav a 
 {
-    font-size: 22px;
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    margin: 0 30px;
-
+    font-size: 22px; 
+    text-decoration: none; 
+    display: inline-block; 
+    color: black; 
+    font-family: 'Roboto', sans-serif; 
+    padding: 10px; 
+    margin: 0 30px; 
+    border-bottom: 1px solid transparent;
 }
 nav a:hover
 {
     border-bottom: 1px solid black;
-
+  
 }
 
                                                     /* SEKCJA HEADER  */
@@ -139,8 +136,6 @@ div.wrapper
 {
     max-width: 1440px;
     margin: 0 auto;
-    height: 400px;
-
 }
 
 .aboutme hr
@@ -150,13 +145,10 @@ div.wrapper
     margin-left: 430px;
     margin-right: 450px;
     border-top-width: 1px;
-    border-top-style: inset;
-
 }
 .aboutme header h1
 {
     text-align: center;
-    padding-top: 50px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -168,13 +160,10 @@ div.wrapper
 }    
 header img.headerpic
 {
-    width: 300px;
+    margin-top: 60px;
+    margin-right: 580px;
+    width: 250px; 
     height: 200px;
-    padding-top: 250px;
-    float: left;
-    padding-left: 540px;
-    
-    
 }                 
 .aboutme main 
 {
