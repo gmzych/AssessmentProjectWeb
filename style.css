@@ -7,7 +7,6 @@ font-family: 'Roboto', sans-serif;
 {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
                                                     /* SEKCJA NAWIGACJA HEADER */
 nav 
@@ -19,6 +18,7 @@ nav
 }                                         
 nav a 
 {
+   
     font-size: 22px; 
     text-decoration: none; 
     display: inline-block; 
@@ -35,7 +35,10 @@ nav a:hover
 }
 
                                                     /* SEKCJA HEADER  */
-
+body.mainpage
+{
+    background-color: #f2f1ed; 
+}
 header 
 {
     height:540px;
@@ -77,9 +80,8 @@ header img
 main 
 {
     max-width: 1440px;
-    background-color: #f2f1ed;;
 }
-main .tech
+main h2.tech
 {
     text-align: center;
     font-size: 30px;
@@ -97,8 +99,8 @@ main p.description
 
 main div.project
 {
-    display: inline-block;
-    width: 33%;
+    display: inline-block;                          /* USTAWIA MOJE KONTENERY POZIOMO W LINI */
+    width: 33%;                                     /* SZER. 1 KONTENERA 33% */
 }      
 main h2
 {
@@ -108,7 +110,7 @@ main h2
 }           
 main div.img
 {
-    height: 200px;
+    height: 250px;
     background-color: burlywood;
     margin: 20px 30px;
 }                                   
@@ -118,7 +120,7 @@ main div.img
 
 footer 
 {
-    background-color: #f2f1ed;
+
     color: black;
     text-align: center;
     font-size: 10px;
@@ -126,12 +128,11 @@ footer
 }                                      
 
                                                 /* SEKCJA STRONA ABOUTME */
-    
-body.aboutme
-{
-    background-color: #f2f1ed;
 
-}                                  
+ body.aboutme
+ {
+    background-color: #f2f1ed;
+ }                                               
 div.wrapper
 {
     max-width: 1440px;
@@ -168,7 +169,6 @@ header img.headerpic
 .aboutme main 
 {
    min-width: 500px;
-   background-color: #f2f1ed;
    height: 300px;
 
 }
@@ -203,9 +203,10 @@ main p.aboutmeinfo2
     font-size: 14px;
 
 }
-.aboutme footer
+.aboutme footer.aboutmefooter
 {
     color: black;
     text-align: center;
     font-size: 10px;
+    height: 20px;
 }
